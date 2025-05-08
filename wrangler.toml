@@ -2,8 +2,11 @@ name = "live-app"
 compatibility_date = "2025-05-08"
 compatibility_flags = ["nodejs_compat"]
 
-main = ".vercel/output/static/_worker.js/index.js"
+# page mode
+pages_build_output_dir = ".vercel/output/static"
 
-[site]
-bucket = ".vercel/output/static"
+# worker mode
+# main = ".vercel/output/static/_worker.js/index.js"
+# site = { bucket = "./.vercel/output/static" }
+
 
