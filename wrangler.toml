@@ -4,3 +4,4 @@ main = ".vercel/output/static/_worker.js"
 
 [site]
 bucket = ".vercel/output/static"
+
