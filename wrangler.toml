@@ -1,9 +1,2 @@
-name = "my-next-worker"
-compatibility_date = "2025-05-08"
-
-[build]
-command = "next build"
+[assets]
 directory = "out"
-
-[env.production]
-name = "my-next-worker-production"
