@@ -1,2 +1,6 @@
 name = "live-app"
 compatibility_date = "2025-05-08"
+main = ".vercel/output/static/_worker.js"
+
+[site]
+bucket = ".vercel/output/static"
