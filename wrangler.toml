@@ -1,2 +1,5 @@
+name = "live-app-worker"
+compatibility_date = "2025-05-08"
+
 [assets]
 directory = ".next"
