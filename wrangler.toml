@@ -1,8 +1,7 @@
 name = "live-app"
 compatibility_date = "2025-05-08"
-main = ".vercel/output/static/_worker.js"
+main = ".vercel/output/static/_worker.js/index.js"
 compatibility_flags = ["nodejs_compat"]
-
 
 [site]
 bucket = ".vercel/output/static"
