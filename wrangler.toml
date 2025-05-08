@@ -6,6 +6,3 @@ compatibility_flags = ["nodejs_compat"]
 
 [site]
 bucket = ".vercel/output/static"
-
-[observability.logs]
-enabled = true
