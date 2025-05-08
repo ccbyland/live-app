@@ -1,0 +1,9 @@
+name = "my-next-worker"
+compatibility_date = "2025-05-08"
+
+[build]
+command = "next build"
+directory = "out"
+
+[env.production]
+name = "my-next-worker-production"
