@@ -10,7 +10,7 @@
   },
   "packageManager": "npm@8.19.4",
   "dependencies": {
-    "@hb-common/bear-request": "^1.2.2",
+    "@hb-common/utils": "^1.2.2",
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
