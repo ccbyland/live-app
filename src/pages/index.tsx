@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-console.error(12312312321, initTracker)
+console.error(111, initTracker)
 
 export default function Home() {
   return (
