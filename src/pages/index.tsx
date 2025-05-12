@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
-import * as aaa from '@hb-common/bear-request'
+import { Event } from '@hb-common/utils'
 import styles from "@/styles/Home.module.css";
 
 const geistSans = Geist({
