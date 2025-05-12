@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
+import { initTracker } from '@hbdevs/crm-browser-tracker'
 import styles from "@/styles/Home.module.css";
 
 const geistSans = Geist({
@@ -12,6 +13,8 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+console.error(12312312321, initTracker)
 
 export default function Home() {
   return (
