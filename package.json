@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "packageManager": "npm@8.19.4",
   "dependencies": {
     "@hbdevs/crm-browser-tracker": "^0.0.13",
     "next": "15.3.2",
