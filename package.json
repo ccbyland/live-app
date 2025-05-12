@@ -10,7 +10,7 @@
   },
   "packageManager": "npm@8.19.4",
   "dependencies": {
-    "@hbdevs/crm-browser-tracker": "^0.0.13",
+    "@hb-common/bear-request": "^1.2.2",
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

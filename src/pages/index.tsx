@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
-import { initTracker } from '@hbdevs/crm-browser-tracker'
+import * as aaa from '@hb-common/bear-request'
 import styles from "@/styles/Home.module.css";
 
 const geistSans = Geist({
@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-console.error(111, initTracker)
+console.error(111, aaa)
 
 export default function Home() {
   return (
